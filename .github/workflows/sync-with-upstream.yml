@@ -1,4 +1,4 @@
-name: Sync AtomUIProgrammingBible
+name: SyncAtomUIProgrammingBible
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   sync:
-    runs-on: qinware-ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
